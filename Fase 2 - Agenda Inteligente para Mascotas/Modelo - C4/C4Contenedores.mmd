@@ -1,0 +1,24 @@
+```mermaid
+flowchart LR
+
+    Usuario["👤 Usuario"]
+
+    Frontend["🌐 Aplicación Web
+    Frontend"]
+
+    Backend["⚙️ API Backend"]
+
+    BD[("🗄️ Base de Datos MySQL")]
+
+    Usuario -->|Interactúa| Frontend
+
+    Frontend -->|Solicita información| Backend
+
+    Backend -->|Lee y almacena datos| BD
+
+    BD -->|Devuelve información| Backend
+
+    Backend -->|Responde| Frontend
+
+    Frontend -->|Muestra resultados| Usuario
+```

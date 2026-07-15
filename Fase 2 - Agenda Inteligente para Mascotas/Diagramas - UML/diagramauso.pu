@@ -1,0 +1,32 @@
+@startuml Agenda Mascotas
+
+left to right direction
+
+actor "Propietario de Mascota" as Usuario
+
+
+rectangle "Sistema Agenda Inteligente para Mascotas" {
+
+  usecase "Registrarse" as UC1
+  usecase "Iniciar Sesión" as UC2
+  usecase "Registrar Mascota" as UC3
+  usecase "Editar Información\n de Mascota" as UC4
+  usecase "Agendar Cita" as UC5
+  usecase "Consultar Calendario" as UC6
+  usecase "Registrar Vacuna" as UC7
+  usecase "Consultar Historial\n Médico" as UC8
+  usecase "Recibir Recordatorios" as UC9
+
+}
+
+Usuario --> UC1
+Usuario --> UC2
+Usuario --> UC3
+Usuario --> UC4
+Usuario --> UC5
+Usuario --> UC6
+Usuario --> UC7
+Usuario --> UC8
+Usuario --> UC9
+
+@enduml

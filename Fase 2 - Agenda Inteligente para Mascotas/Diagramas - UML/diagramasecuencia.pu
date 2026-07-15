@@ -1,0 +1,29 @@
+@startuml
+
+actor Usuario
+
+participant "Sistema" as Sistema
+participant "Mascota" as Mascota
+database "Base de Datos" as BD
+
+Usuario -> Sistema : Iniciar sesión
+
+Sistema -> BD : Validar credenciales
+BD --> Sistema : Credenciales válidas
+
+Usuario -> Sistema : Seleccionar mascota
+
+Sistema -> BD : Consultar mascota
+BD --> Sistema : Datos de mascota
+
+Usuario -> Sistema : Registrar nueva cita
+
+Sistema -> BD : Guardar cita
+BD --> Sistema : Cita registrada
+
+Sistema -> BD : Crear recordatorio
+BD --> Sistema : Recordatorio guardado
+
+Sistema --> Usuario : Confirmación de cita
+
+@enduml

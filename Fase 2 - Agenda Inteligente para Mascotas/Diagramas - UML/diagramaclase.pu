@@ -1,0 +1,80 @@
+@startuml
+
+class Usuario {
+    -idUsuario : int
+    -nombre : String
+    -correo : String
+    -contrasena : String
+
+    +registrarse()
+    +iniciarSesion()
+    +actualizarPerfil()
+    +consultarMascotas()
+}
+
+class Mascota {
+    -idMascota : int
+    -nombre : String
+    -especie : String
+    -raza : String
+    -edad : int
+    -sexo : String
+
+    +registrarMascota()
+    +editarMascota()
+    +consultarInformacion()
+}
+
+class Cita {
+    -idCita : int
+    -fecha : Date
+    -hora : Time
+    -tipo : String
+    -estado : String
+
+    +agendarCita()
+    +modificarCita()
+    +cancelarCita()
+}
+
+class Vacuna {
+    -idVacuna : int
+    -nombre : String
+    -fechaAplicacion : Date
+    -proximoRefuerzo : Date
+
+    +registrarVacuna()
+    +consultarVacunas()
+    +actualizarVacuna()
+}
+
+class HistorialMedico {
+    -idHistorial : int
+    -observaciones : String
+    -fechaRegistro : Date
+
+    +agregarObservacion()
+    +editarObservacion()
+    +consultarHistorial()
+}
+
+class Recordatorio {
+    -idRecordatorio : int
+    -mensaje : String
+    -fechaEnvio : Date
+    -estado : String
+
+    +generarRecordatorio()
+    +enviarRecordatorio()
+    +marcarLeido()
+}
+
+Usuario "1" -- "0..*" Mascota : posee
+
+Mascota "1" -- "0..*" Cita : tiene
+Mascota "1" -- "0..*" Vacuna : registra
+Mascota "1" -- "1" HistorialMedico : mantiene
+
+Cita "1" -- "1" Recordatorio : genera
+
+@enduml
