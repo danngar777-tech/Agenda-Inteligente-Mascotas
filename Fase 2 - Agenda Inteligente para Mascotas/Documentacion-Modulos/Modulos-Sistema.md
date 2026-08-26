@@ -26,6 +26,17 @@ Permite el registro y autenticación de los usuarios de la plataforma.
 - Inicio de sesión exitoso
 - Mensajes de validación
 
+## Endpoints Propuestos
+
+POST /api/usuarios/registro
+Registrar un nuevo usuario.
+
+POST /api/usuarios/login
+Permitir el inicio de sesión.
+
+GET /api/usuarios/{id}
+Consultar información de un usuario.
+
 ---
 
 # Módulo de Gestión de Mascotas
@@ -52,6 +63,22 @@ Permite registrar, consultar, editar y actualizar la información asociada a las
 - Confirmación de registro
 - Actualización de información
 
+## Endpoints Propuestos
+
+POST /api/mascotas
+Registrar una mascota.
+
+GET /api/mascotas
+Consultar mascotas registradas.
+
+GET /api/mascotas/{id}
+Consultar una mascota específica.
+
+PUT /api/mascotas/{id}
+Actualizar información de una mascota.
+
+DELETE /api/mascotas/{id}
+Eliminar una mascota.
 ---
 
 # Módulo de Agenda
@@ -77,6 +104,23 @@ Administra las citas veterinarias, vacunaciones y servicios de cuidado.
 - Evento registrado
 - Actualización del calendario
 
+## Endpoints Propuestos
+
+POST /api/citas
+Registrar una nueva cita.
+
+GET /api/citas
+Consultar citas registradas.
+
+GET /api/citas/{id}
+Consultar una cita específica.
+
+PUT /api/citas/{id}
+Modificar una cita.
+
+DELETE /api/citas/{id}
+Cancelar una cita.
+
 ---
 
 # Módulo de Historial Médico
@@ -100,6 +144,17 @@ Permite almacenar registros médicos, vacunas, tratamientos y observaciones clí
 
 - Historial actualizado
 
+## Endpoints Propuestos
+
+POST /api/historial
+Registrar información médica.
+
+GET /api/historial/{mascotaId}
+Consultar historial de una mascota.
+
+PUT /api/historial/{id}
+Actualizar registro médico.
+
 ---
 
 # Módulo de Recordatorios
@@ -120,3 +175,14 @@ Genera alertas para citas, vacunas y tratamientos programados.
 ## Salidas
 
 - Notificaciones automáticas
+
+## Endpoints Propuestos
+
+GET /api/recordatorios
+Consultar recordatorios pendientes.
+
+POST /api/recordatorios
+Generar un nuevo recordatorio.
+
+PUT /api/recordatorios/{id}
+Marcar recordatorio como atendido o leído.
