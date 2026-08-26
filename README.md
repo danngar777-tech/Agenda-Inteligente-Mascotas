@@ -24,7 +24,6 @@ Desarrollar una herramienta que facilite el seguimiento de actividades important
 - Luis Daniel Areas Garcia
 - Janiel Araus Ramoz
 - Daniela Rosales Gómez
-- Jesús Blanco Navarro
 
 ## Curso
 
