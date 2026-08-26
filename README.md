@@ -62,4 +62,23 @@ Agenda-Inteligente-Mascotas/
 ## Estado del Proyecto
 
 Fase 2: Documentación Técnica y Arquitectónica.
+## Fase 3 - Expediente Documental Final
+
+La versión final del expediente documental integra todos los productos desarrollados durante el curso:
+
+- Descripción del proyecto.
+- Requisitos funcionales y no funcionales.
+- Historias de usuario.
+- Matriz de trazabilidad.
+- Diagramas UML.
+- Arquitectura de software.
+- Modelo C4.
+- Registros ADR.
+- Documentación de módulos.
+- Evidencia de pruebas.
+- Manual de usuario.
+- Bitácora de cambios.
+- Reflexión sobre el uso responsable de la Inteligencia Artificial.
+
+Este expediente permite comprender el sistema, sus requisitos, diseño, pruebas y operación, facilitando futuros procesos de mantenimiento y evolución del software.
 
