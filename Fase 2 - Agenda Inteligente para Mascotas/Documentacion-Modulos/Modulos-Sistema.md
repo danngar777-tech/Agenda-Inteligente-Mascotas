@@ -79,6 +79,7 @@ Actualizar información de una mascota.
 
 DELETE /api/mascotas/{id}
 Eliminar una mascota.
+
 ---
 
 # Módulo de Agenda
