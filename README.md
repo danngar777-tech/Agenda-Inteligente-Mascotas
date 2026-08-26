@@ -49,18 +49,55 @@ Universidad Florencio del Castillo
 ## Estructura del Proyecto
 
 ```text
-Agenda-Inteligente-Mascotas/
+## Estructura del Proyecto
 
+```text
+Fase 2 - Agenda Inteligente para Mascotas/
+│
 ├── README.md
-├── 01-Documentacion
-├── 02-Diagramas-UML
-├── 03-Arquitectura
-├── 04-Modelo-C4
-└── 05-ADR
+│
+├── Documentacion
+│   ├── Requisitos del Sistema
+│   ├── Historias de Usuario
+│   └── Matriz de Trazabilidad
+│
+├── Diagramas - UML
+│   ├── Diagrama de Casos de Uso
+│   ├── Diagrama de Clases
+│   └── Diagrama de Secuencia
+│
+├── Arquitectura
+│   └── Documentación Arquitectónica
+│
+├── Modelo - C4
+│   ├── Diagrama de Contexto
+│   └── Diagrama de Contenedores
+│
+├── ADR
+│   └── Registros de Decisiones Arquitectónicas
+│
+├── Documentacion-Modulos
+│   └── Modulos-Sistema.md
+│
+├── Pruebas
+│   └── Evidencia-Pruebas.md
+│
+├── Manual-Usuario
+│   └── Manual-Usuario.md
+│
+├── Bitacora-Cambios
+│   └── CHANGELOG.md
+│
+└── Reflexion-IA
+    └── Reflexion-IA.md
 ```
-
 ## Estado del Proyecto
-## Fase 3 - Expediente Documental Final
+
+### Fase 3 - Expediente Documental Final
+
+La estructura documental creada inicialmente durante la Fase 2 fue ampliada en esta etapa final mediante la incorporación de documentación de módulos, evidencia de pruebas, manual de usuario, bitácora de cambios y reflexión sobre el uso responsable de la inteligencia artificial.
+
+Con estas adiciones se consolidó el expediente documental completo del Sistema de Agenda Inteligente para Mascotas, integrando los aspectos funcionales, técnicos y operativos desarrollados a lo largo del curso.
 
 La versión final del expediente documental integra todos los productos desarrollados durante el curso:
 
@@ -79,4 +116,3 @@ La versión final del expediente documental integra todos los productos desarrol
 - Reflexión sobre el uso responsable de la Inteligencia Artificial.
 
 Este expediente permite comprender el sistema, sus requisitos, diseño, pruebas y operación, facilitando futuros procesos de mantenimiento y evolución del software.
-
