@@ -28,13 +28,13 @@ Permite el registro y autenticación de los usuarios de la plataforma.
 
 ## Endpoints Propuestos
 
-POST /api/usuarios/registro
+POST /api/usuarios/registro/
 Registrar un nuevo usuario.
 
-POST /api/usuarios/login
+POST /api/usuarios/login/
 Permitir el inicio de sesión.
 
-GET /api/usuarios/{id}
+GET /api/usuarios/{id}/
 Consultar información de un usuario.
 
 ---
@@ -65,19 +65,19 @@ Permite registrar, consultar, editar y actualizar la información asociada a las
 
 ## Endpoints Propuestos
 
-POST /api/mascotas
+POST /api/mascotas/
 Registrar una mascota.
 
-GET /api/mascotas
+GET /api/mascotas/
 Consultar mascotas registradas.
 
-GET /api/mascotas/{id}
+GET /api/mascotas/{id}/
 Consultar una mascota específica.
 
-PUT /api/mascotas/{id}
+PUT /api/mascotas/{id}/
 Actualizar información de una mascota.
 
-DELETE /api/mascotas/{id}
+DELETE /api/mascotas/{id}/
 Eliminar una mascota.
 
 ---
@@ -107,19 +107,19 @@ Administra las citas veterinarias, vacunaciones y servicios de cuidado.
 
 ## Endpoints Propuestos
 
-POST /api/citas
+POST /api/citas/
 Registrar una nueva cita.
 
-GET /api/citas
+GET /api/citas/
 Consultar citas registradas.
 
-GET /api/citas/{id}
+GET /api/citas/{id}/
 Consultar una cita específica.
 
-PUT /api/citas/{id}
+PUT /api/citas/{id}/
 Modificar una cita.
 
-DELETE /api/citas/{id}
+DELETE /api/citas/{id}/
 Cancelar una cita.
 
 ---
@@ -147,13 +147,13 @@ Permite almacenar registros médicos, vacunas, tratamientos y observaciones clí
 
 ## Endpoints Propuestos
 
-POST /api/historial
+POST /api/historial/
 Registrar información médica.
 
-GET /api/historial/{mascotaId}
+GET /api/historial/{mascotaId}/
 Consultar historial de una mascota.
 
-PUT /api/historial/{id}
+PUT /api/historial/{id}/
 Actualizar registro médico.
 
 ---
@@ -179,11 +179,11 @@ Genera alertas para citas, vacunas y tratamientos programados.
 
 ## Endpoints Propuestos
 
-GET /api/recordatorios
+GET /api/recordatorios/
 Consultar recordatorios pendientes.
 
-POST /api/recordatorios
+POST /api/recordatorios/
 Generar un nuevo recordatorio.
 
-PUT /api/recordatorios/{id}
+PUT /api/recordatorios/{id}/
 Marcar recordatorio como atendido o leído.
