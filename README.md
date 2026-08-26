@@ -60,8 +60,6 @@ Agenda-Inteligente-Mascotas/
 ```
 
 ## Estado del Proyecto
-
-Fase 2: Documentación Técnica y Arquitectónica.
 ## Fase 3 - Expediente Documental Final
 
 La versión final del expediente documental integra todos los productos desarrollados durante el curso:
