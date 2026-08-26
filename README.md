@@ -48,9 +48,6 @@ Universidad Florencio del Castillo
 ## Estructura del Proyecto
 
 ```text
-## Estructura del Proyecto
-
-```text
 Fase 2 - Agenda Inteligente para Mascotas/
 │
 ├── README.md
